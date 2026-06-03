@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dens11qknukmt"]
+
+[ext_resource type="Texture2D" uid="uid://x83ssqb1mhnk" path="res://import_contents/ui/taffy_energy_icon.png" id="1_yvn0t"]
+
+[resource]
+atlas = ExtResource("1_yvn0t")
+region = Rect2(0, 0, 74, 74)

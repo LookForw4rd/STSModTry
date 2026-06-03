@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://baxdu67avxmka"]
+
+[ext_resource type="Texture2D" uid="uid://bad2nm48626mi" path="res://images/relics/fan_badge_outline.png" id="1_kwnxr"]
+
+[resource]
+atlas = ExtResource("1_kwnxr")
+region = Rect2(0, 0, 256, 256)

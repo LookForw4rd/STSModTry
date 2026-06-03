@@ -1,0 +1,9 @@
+{
+  "STRIKE_TAFFY.description": "造成{Damage:diff()}点伤害。",
+  "STRIKE_TAFFY.title": "打击",
+  "MEOW_PUNCH.description": "造成{Damage:diff()}点[gold]等级[/gold]伤害。",  
+  "MEOW_PUNCH.title": "打喵拳",
+
+  "FAN_LEVEL.title": "等级",
+  "FAN_LEVEL.description": "该卡面的相关数值由玩家当前持有的粉丝牌等级决定。"
+}

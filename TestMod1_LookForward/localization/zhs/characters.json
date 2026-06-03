@@ -1,0 +1,15 @@
+{
+  "TAFFY.title": "塔菲",
+  "TAFFY.description": "一个唐唐的vtuber，前来收割粉丝。",
+  "TAFFY.titleObject": "塔菲",
+  "TAFFY.pronounObject": "她",
+  "TAFFY.possessiveAdjective": "她的",
+  "TAFFY.pronounPossessive": "她的",
+  "TAFFY.pronounSubject": "她",
+  "TAFFY.cardsModifierTitle": "塔菲卡牌",
+  "TAFFY.cardsModifierDescription": "塔菲的卡牌现在会出现在奖励和商店中。",
+  "TAFFY.eventDeathPrevention": "还是不行吗…",
+  "TAFFY.unlockText": "完成 {Prerequisite} 的条件后解锁。",
+  "TAFFY.banter.alive.endTurnPing": "[sine]快点喵……[/sine]",
+  "TAFFY.banter.dead.endTurnPing": "……"
+}

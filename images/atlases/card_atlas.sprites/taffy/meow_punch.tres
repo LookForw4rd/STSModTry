@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://is77ebptflif"]
+
+[ext_resource type="Texture2D" uid="uid://dl3sd7ej786qn" path="res://images/packed/card_portraits/taffy/meow_punch.png" id="1_ib2l1"]
+
+[resource]
+atlas = ExtResource("1_ib2l1")
+region = Rect2(0, 0, 1000, 760)

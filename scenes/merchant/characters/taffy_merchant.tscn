@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dt14luwusxnb5"]
+
+[ext_resource type="Script" uid="uid://ccd1kxj2jlpxm" path="res://src/Core/Nodes/Screens/Shops/CustomMerchantCharacter.cs" id="1_fi2hg"]
+[ext_resource type="Texture2D" uid="uid://djsa7cfblmyss" path="res://import_contents/image/taffy_merchant_image.png" id="2_5p0uc"]
+
+[node name="TaffyMerchant" type="Node2D"]
+script = ExtResource("1_fi2hg")
+
+[node name="TaffyMerchantSprite" type="Sprite2D" parent="."]
+position = Vector2(0, -327)
+texture = ExtResource("2_5p0uc")

@@ -1,0 +1,11 @@
+{
+  "id": "TestMod1_LookForward",
+  "name": "杀戮尖塔测试模组_1",
+  "author": "fyb & hpk",
+  "description": "杀戮尖塔2模组尝试",
+  "version": "v0.0.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": true
+}

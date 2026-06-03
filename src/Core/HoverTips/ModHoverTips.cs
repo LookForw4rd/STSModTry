@@ -9,5 +9,10 @@ namespace TestMod1_LookForward.Core.HoverTips
             new LocString("cards", "FAN_LEVEL.title"),
             new LocString("cards", "FAN_LEVEL.description")
         );
+        
+        public static IHoverTip PayMoney => new HoverTip(
+            new LocString("cards", "PAY_MONEY.title"),
+            new LocString("cards", "PAY_MONEY.description")
+        );
     }
 }

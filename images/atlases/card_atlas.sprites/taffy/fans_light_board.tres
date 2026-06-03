@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bby4r4jowjrog"]
+
+[ext_resource type="Texture2D" uid="uid://osisgy2r7e1u" path="res://images/packed/card_portraits/taffy/fans_light_board.png" id="1_cvo8y"]
+
+[resource]
+atlas = ExtResource("1_cvo8y")
+region = Rect2(0, 0, 1000, 760)

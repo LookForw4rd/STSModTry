@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://7wr3lr32i30r"]
+
+[ext_resource type="Texture2D" uid="uid://7eihubnvt26r" path="res://images/packed/card_portraits/taffy/defend_taffy.png" id="1_uad6w"]
+
+[resource]
+atlas = ExtResource("1_uad6w")
+region = Rect2(0, 0, 1000, 760)

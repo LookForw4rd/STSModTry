@@ -18,6 +18,8 @@ namespace TestMod1_LookForward.Core.Models.CardPools
             return new CardModel[] {
                 ModelDb.Card<StrikeTaffy>(),
                 ModelDb.Card<MeowPunch>(),
+                ModelDb.Card<DefendTaffy>(),
+                ModelDb.Card<FansLightBoard>(),
             };
         }
     }

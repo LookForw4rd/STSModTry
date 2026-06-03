@@ -1,9 +1,17 @@
 {
-  "STRIKE_TAFFY.description": "造成{Damage:diff()}点伤害。",
-  "STRIKE_TAFFY.title": "打击",
+  "DEFEND_TAFFY.description": "获得{Block:diff()}点[gold]格挡[/gold]。",
+  "DEFEND_TAFFY.title": "防御",
+  "FANS_LIGHT_BOARD.title": "粉丝团灯牌",
+  "FANS_LIGHT_BOARD.description": "[gold]爆米[/gold]：{PayAmount:diff()}。",
   "MEOW_PUNCH.description": "造成{Damage:diff()}点[gold]等级[/gold]伤害。",  
   "MEOW_PUNCH.title": "打喵拳",
+  "STRIKE_TAFFY.description": "造成{Damage:diff()}点伤害。",
+  "STRIKE_TAFFY.title": "打击",
 
   "FAN_LEVEL.title": "等级",
-  "FAN_LEVEL.description": "该卡面的相关数值由玩家当前持有的粉丝牌等级决定。"
+  "FAN_LEVEL.description": "该卡面的相关数值由玩家当前持有的粉丝牌等级决定。",
+  "PAY_MONEY.title": "爆米",
+  "PAY_MONEY.description": "花费一定数额的金币，并获得等额的粉丝牌经验值。",
+
+  "NOT_ENOUGH_GOLD": "金币不足！"
 }

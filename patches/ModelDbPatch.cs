@@ -27,6 +27,8 @@ namespace TestMod1_LookForward.patches
             __result = __result
                 .Append(ModelDb.Card<StrikeTaffy>())
                 .Append(ModelDb.Card<MeowPunch>())
+                .Append(ModelDb.Card<DefendTaffy>())
+                .Append(ModelDb.Card<FansLightBoard>())
                 .Distinct();
         }
     }

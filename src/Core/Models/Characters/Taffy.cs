@@ -40,6 +40,12 @@ namespace TestMod1_LookForward.Core.Models.Characters
             ModelDb.Card<StrikeTaffy>(),
             ModelDb.Card<StrikeTaffy>(),
             ModelDb.Card<MeowPunch>(),
+            ModelDb.Card<DefendTaffy>(),
+            ModelDb.Card<DefendTaffy>(),
+            ModelDb.Card<DefendTaffy>(),
+            ModelDb.Card<DefendTaffy>(),
+            ModelDb.Card<DefendTaffy>(),
+            ModelDb.Card<FansLightBoard>(),
         ]; 
 
         public override List<RelicModel> StartingRelics => [

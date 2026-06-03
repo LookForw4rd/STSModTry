@@ -27,17 +27,14 @@ namespace TestMod1_LookForward.Core.Models.Cards
         public MeowPunch() : base(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy) {}
         
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay) {
-            int currentLevel = 0;
-            var fanRelic = base.Owner.Relics.FirstOrDefault(r => r.Id == ModelDb.Relic<FanBadge>().Id);
+            var fanRelic = this.Owner.Relics.FirstOrDefault(r => r.Id == ModelDb.Relic<FanBadge>().Id);
+            if (fanRelic != null && fanRelic.DynamicVars.TryGetValue("FanLevel", out var fanVar)) 
+                this.DynamicVars.Damage.BaseValue = fanVar.BaseValue;
 
-            if (fanRelic != null && fanRelic.DynamicVars.TryGetValue("FanLevel", out var fanVar)) {
-                currentLevel = (int)fanVar.BaseValue;
-            }
-
-            await DamageCmd.Attack(currentLevel)
+            await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
                 .FromCard(this)
                 .Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_blunt_light") 
+                .WithHitFx("vfx/vfx_attack_slash")
                 .Execute(choiceContext);
         }
 
@@ -49,9 +46,8 @@ namespace TestMod1_LookForward.Core.Models.Cards
             base.AddExtraArgsToDescription(description);
 
             var fanRelic = this.Owner.Relics.FirstOrDefault(r => r.Id == ModelDb.Relic<FanBadge>().Id);
-            if (fanRelic != null && fanRelic.DynamicVars.TryGetValue("FanLevel", out var fanVar)) {
+            if (fanRelic != null && fanRelic.DynamicVars.TryGetValue("FanLevel", out var fanVar)) 
                 this.DynamicVars.Damage.BaseValue = fanVar.BaseValue;
-            }
         }
     }
 }
